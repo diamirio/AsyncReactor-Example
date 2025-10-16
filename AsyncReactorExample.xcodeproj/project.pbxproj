@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		B4ECB0AC2A1250AE00B0CAAE /* AsyncReactorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncReactorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00E2142EA12E0B00F4B75A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAF86B392EA1128C00C75689 /* AsyncReactorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncReactorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF86B422EA112D500C75689 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF86B422EA112D500C75689 /* .gitignore */,
+				FA00E2142EA12E0B00F4B75A /* README.md */,
 				FAF86B452EA112DE00C75689 /* .github */,
 				82F565F82D74885200C72CA5 /* AsyncReactorExample */,
 				FAF86B3A2EA1128C00C75689 /* AsyncReactorExampleTests */,
