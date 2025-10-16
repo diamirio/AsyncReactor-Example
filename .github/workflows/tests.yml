@@ -24,5 +24,6 @@ jobs:
         xcodebuild test \
           -project AsyncReactorExample.xcodeproj \
           -scheme AsyncReactorExample \
+          -destination 'platform=iOS Simulator,name=iPhone 17,OS=latest' \
           -enableCodeCoverage YES \
           | xcpretty && exit ${PIPESTATUS[0]}
