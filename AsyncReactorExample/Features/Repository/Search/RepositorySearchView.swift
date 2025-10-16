@@ -78,11 +78,8 @@ struct RepositorySearchView: View {
     }
 }
 
-struct RepositorySearchView_Previews: PreviewProvider {
-    static var previews: some View {
-        ReactorView(RepositorySearchReactor()) {
-            RepositorySearchView()
-        }
+#Preview {
+    ReactorView(RepositorySearchReactor()) {
+        RepositorySearchView()
     }
 }
-
