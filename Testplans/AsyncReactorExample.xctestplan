@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "69415521-5607-49D9-A672-63C1061DBD93",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:AsyncReactorExample.xcodeproj",
+      "identifier" : "B4ECB0AB2A1250AE00B0CAAE",
+      "name" : "AsyncReactorExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AsyncReactorExample.xcodeproj",
+        "identifier" : "FAF86B382EA1128C00C75689",
+        "name" : "AsyncReactorExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}
